@@ -1,0 +1,44 @@
+body, html
+{
+  height: 100%;
+}
+
+hr
+{
+  margin: 0px;
+}
+
+.container-fluid
+{
+  display: table;
+  height: 100%;
+}
+
+.container-header {
+  display: table;
+  height: 10%;
+}
+
+.header-row
+{
+  display: table-cell;
+}
+
+.container-content{
+  display: table;
+  height: 90%;
+}
+
+.vertical-center-row{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.vertical-center-row-table{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table {
+  visibility:hidden;
+}
