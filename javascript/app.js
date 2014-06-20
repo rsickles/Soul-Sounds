@@ -9,11 +9,11 @@ var ssApp = angular.module('SS', []);
 
 
 
-ssApp.controller('SoundsListCtrl', function ($scope,download_tracks) {
+ssApp.controller('SoundsListCtrl', ['download_tracks', function (download_tracks) {
   $scope.tracks = function() {
       download_tracks();
     };
-});
+}]);
 
 
 
